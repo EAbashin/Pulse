@@ -1,0 +1,35 @@
+{
+  "name": "project_pulse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EAbashin/Pulse.git"
+  },
+  "author": "Evgeniy Abashin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EAbashin/Pulse/issues"
+  },
+  "homepage": "https://github.com/EAbashin/Pulse#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.35.1"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 10%",
+    "maintained node versions",
+    "not dead"
+  ]
+}
