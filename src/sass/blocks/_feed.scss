@@ -1,0 +1,50 @@
+.feed {
+    padding-bottom: 70px;
+    &__title {
+        font-size: 30px;
+        line-height: 1;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #0d0d0d;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    &__item {
+        display: flex;
+    }
+    &__img {
+        width: 169px;
+        height: 169px;
+    }
+    &__text {
+        margin-left: 62px;
+        padding-right: 50px;
+    }
+    &__subtitle {
+        font-size: 18px;
+        line-height: 1;
+        font-weight: 700;
+        color: #0d0d0d;
+        margin-bottom: 10px;
+    }
+    &__count {
+        font-size: 14px;
+        line-height: 1;
+        font-weight: 300;
+        color: #646464;
+        margin-bottom: 19px;
+    }
+    &__descr {
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+    hr {
+        display: block;
+        border-bottom: none;
+        background-color: #f6f6f6;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
