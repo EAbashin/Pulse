@@ -172,4 +172,12 @@
             text-align: center;
         }
     }
+    .modal {
+        width: 320px;
+        padding: 30px 10px 10px 10px;
+        &__close {
+            top: -40px;
+            right: 0;
+        }
+    }
 }
