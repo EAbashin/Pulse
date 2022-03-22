@@ -112,10 +112,18 @@
                 border-radius: 5px;
                 border: none;
                 font-size: 14px;
-                line-height: 38px;
+                line-height: 37px;
                 font-weight: 500;
                 text-transform: uppercase;
                 color: #ffffff;
+                &:hover {
+                    border: 1px solid darkred;
+                    border-top: none;
+                }
+                &:active {
+                    box-shadow: 0px 0px 10px $main-color;
+                    border: none;
+                }
             }
         }
         &__old-price {

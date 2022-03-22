@@ -23,6 +23,9 @@
         line-height: .5;
         color: $main-color;
         cursor: pointer;
+        &:active {
+            color: darkred;
+        }
     }
     &__subtitle {
         font-size: 18px;
