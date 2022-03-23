@@ -48,6 +48,15 @@
     &_mini {
     min-height: 140px;
     }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        line-height: .7;
+        border: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
 #consultation, #order, #thanks {
     display: none;

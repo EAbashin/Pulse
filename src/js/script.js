@@ -50,7 +50,33 @@ $(document).ready(function(){
             $('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text());
             $('.overlay, #order').fadeIn('slow');
         })
-    })
+    });
+
+    function valideForm(form) {
+        $(form).validate({
+            rules: {
+                name: "required",
+                phone: "required",
+                email: {
+                    required: true,
+                    email: true
+                }
+            },
+            messages: {
+                name: "Введите своё имя",
+                phone: "Введите номер телефона",
+                email: {
+                  required: "Введите почту",
+                  email: "Неверный формат почты"
+                }
+            }
+        });
+    };
+    valideForm('#consultation-form');
+    valideForm('#consultation form');
+    valideForm('#order form');
+
+    $('input[name=phone]').mask("+7 (999) 999-99-99");
 });
 // tiny slider
 // const slider = tns({
