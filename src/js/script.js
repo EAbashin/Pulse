@@ -93,6 +93,22 @@ $(document).ready(function(){
         return false;
     });
 
+    // smooth scroll and pageUp
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 1800) {
+            $('.pageUp').fadeIn();
+        } else {
+            $('.pageUp').fadeOut();
+        }
+    });
+
+    $("a[href^='#").click(function() {
+        const _href = $(this).attr("href");
+        $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+        return false;
+    });
+
 });
 // tiny slider
 // const slider = tns({
