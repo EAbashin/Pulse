@@ -29,6 +29,12 @@
             width: 70px;
             height: 70px;
         }
+        &_animated {
+            animation: heartBeat 1s ease infinite paused;
+            &:hover {
+                animation-play-state: running;
+            }
+        }
         h3 {
             font-size: 18px;
             font-weight: 700;
